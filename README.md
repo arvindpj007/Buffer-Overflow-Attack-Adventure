@@ -85,7 +85,7 @@ Initially we have to setup the debugging environment:
 
     ![Program Crash](./images/C8_prgm_crash.png)
 
-9. It is observed that the $rbp points to the address "0x00007FFFFFFFDEF0" from the Registers view and the local variables are written from the address "0x00007FFFFFFFDD18" from the stack frame.
+9. It is observed that the $rbp points to the address "0x00007FFFFFFFDEF0" from the Registers view and the local variables are written from the address "0x00007FFFFFFFDD18" from the stack frame. The difference between the address in decimal is "472", then the required length is "(472-8)/2 = 232"
 
     ![Register Addresses](./images/C9_registers_addr.png)
 
